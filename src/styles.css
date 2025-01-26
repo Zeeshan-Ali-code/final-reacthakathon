@@ -1,0 +1,41 @@
+/* Neon text style */
+.neon-text {
+    color: #00FF00;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    font-weight: bold;
+  }
+  
+  /* Neon button style */
+  .neon-button {
+    background-color: #00FF00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00;
+    transition: all 0.3s ease;
+  }
+  
+  .neon-button:hover {
+    background-color: #00CC00;
+    box-shadow: 0 0 15px #00FF00, 0 0 30px #00FF00;
+  }
+  
+  /* Sidebar and header styles */
+  .sidebar {
+    background-color: #001529;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 0 20px;
+  }
+  
+  .header .header-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 64px;
+  }
+  
